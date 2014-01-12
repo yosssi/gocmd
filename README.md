@@ -1,4 +1,1 @@
-gocmd
-=====
-
-Command utility functions in Go
+# gocmd - Command utility functions in Go
