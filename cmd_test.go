@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"testing"
 	"os/exec"
-	"strings"
 	"strconv"
+	"strings"
+	"testing"
 )
 
 const (
