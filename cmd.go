@@ -1,7 +1,7 @@
 package gocmd
 
 import (
-"os/exec"
+	"os/exec"
 )
 
 func Pipe(commands ...*exec.Cmd) ([]byte, error) {
