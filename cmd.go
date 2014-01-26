@@ -13,7 +13,7 @@ func Pipe(commands ...*exec.Cmd) ([]byte, error) {
 		command.Start()
 		commands[i+1].Stdin = out
 	}
-	final, err := commands[len(commands)-1].Output()
+	final, err := commands[len(commands)-1].CombinedOutput()
 	if err != nil {
 		return nil, err
 	}
